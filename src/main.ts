@@ -5,6 +5,3 @@ import { HeaderComponent } from './app/header/header.component';
 
 bootstrapApplication(AppComponent, appConfig)
   .catch((err) => console.error(err));
-
-  bootstrapApplication(HeaderComponent, appConfig)
-  .catch((err) => console.error(err));
